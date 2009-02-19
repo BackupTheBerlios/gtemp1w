@@ -1,0 +1,185 @@
+Panel : 
+{
+  Displays = ( 
+    {
+      type = 0;
+      width = 700;
+      height = 300;
+      position_x = 0;
+      position_y = 0;
+      time_range = 3600;
+      last_time = 1234716503;
+      time_step = 300;
+      temp_max = 30;
+      temp_min = 20;
+      temp_step = 1;
+      font_size = 10;
+      show_legend = false;
+      Plots = ( 
+        {
+          name = "Pokoj";
+          color = "#0000aa42ffff";
+          visible = true;
+          n_average = 0;
+          style = 1;
+        }, 
+        {
+          name = "a";
+          color = "#f608894c0d9a";
+          visible = true;
+          n_average = 0;
+          style = 0;
+        }, 
+        {
+          name = "ąąą";
+          color = "#28aff6080d9a";
+          visible = true;
+          n_average = 0;
+          style = 0;
+        } );
+    }, 
+    {
+      type = 0;
+      width = 700;
+      height = 300;
+      position_x = 0;
+      position_y = 301;
+      time_range = 21600;
+      last_time = 1234716503;
+      time_step = 1800;
+      temp_max = 33;
+      temp_min = -12;
+      temp_step = 10;
+      font_size = 10;
+      show_legend = true;
+      Plots = ( 
+        {
+          name = "Pokoj";
+          color = "#ffff000017d7";
+          visible = true;
+          n_average = 0;
+          style = 0;
+        } );
+    }, 
+    {
+      type = 0;
+      width = 400;
+      height = 225;
+      position_x = 701;
+      position_y = 0;
+      time_range = 300;
+      last_time = 1234716503;
+      time_step = 43200;
+      temp_max = 25;
+      temp_min = 23;
+      temp_step = 2;
+      font_size = 10;
+      show_legend = false;
+      Plots = ( 
+        {
+          name = "Pokoj";
+          color = "#fe3fc5710a13";
+          visible = true;
+          n_average = 0;
+          style = 2;
+        } );
+    }, 
+    {
+      type = 1;
+      width = 367;
+      height = 122;
+      position_x = 701;
+      position_y = 226;
+      time_range = 0;
+      last_time = 1234716503;
+      time_step = 0;
+      temp_max = 0;
+      temp_min = 0;
+      temp_step = 0;
+      font_size = 24;
+      show_legend = true;
+      Plots = ( 
+        {
+          name = "Pokoj";
+          color = "#ff3ee49a0c15";
+          visible = true;
+          n_average = 0;
+          style = 0;
+        }, 
+        {
+          name = "a";
+          color = "#28aff6080d9a";
+          visible = true;
+          n_average = 0;
+          style = 0;
+        }, 
+        {
+          name = "ąąą";
+          color = "#d72a100f100f";
+          visible = true;
+          n_average = 0;
+          style = 0;
+        } );
+    }, 
+    {
+      type = 1;
+      width = 388;
+      height = 48;
+      position_x = 701;
+      position_y = 349;
+      time_range = 10;
+      last_time = 1234716503;
+      time_step = 0;
+      temp_max = 0;
+      temp_min = 0;
+      temp_step = 0;
+      font_size = 28;
+      show_legend = true;
+      Plots = ( 
+        {
+          name = "Pokoj";
+          color = "#ffff5a5abe8c";
+          visible = true;
+          n_average = 0;
+          style = 0;
+        } );
+    } );
+};
+Sensors : 
+{
+  Sensor_List = ( 
+    {
+      sensor_id = "28.C35777010000";
+      name = "Pokoj";
+      resolution = 12;
+      read_interval = 7;
+      cached = false;
+    }, 
+    {
+      sensor_id = "";
+      name = "a";
+      resolution = 9;
+      read_interval = 5;
+      cached = false;
+    }, 
+    {
+      sensor_id = "";
+      name = "aaaaaaaaaaaaaaa";
+      resolution = 9;
+      read_interval = 5;
+      cached = false;
+    }, 
+    {
+      sensor_id = "";
+      name = "ąąą";
+      resolution = 9;
+      read_interval = 5;
+      cached = false;
+    } );
+};
+General_Settings : 
+{
+  path_1_wire_directory = "/var/1-Wire/";
+  path_data_directory = "/home/tad/tmp/data/";
+  write_samples_interval = 15321;
+};

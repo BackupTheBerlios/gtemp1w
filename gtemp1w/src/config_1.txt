@@ -1,0 +1,92 @@
+Panel : 
+{
+  Displays = ( 
+    {
+      width = 700;
+      height = 200;
+      position_x = 0;
+      position_y = 201;
+      time_range = 10800;
+      last_time = 1234355638;
+      time_step = 300;
+      temp_max = 10;
+      temp_min = 0;
+      temp_step = 2;
+      Plots = ( 
+        {
+          name = "";
+          color = "#00000000fde8";
+        }, 
+        {
+          name = "aaaaaaaaaa";
+          color = "#ebd914261426";
+        }, 
+        {
+          name = "bb";
+          color = "#1709ebd91426";
+        }, 
+        {
+          name = "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj";
+          color = "#ebd91426cfff";
+        } );
+    }, 
+    {
+      width = 700;
+      height = 200;
+      position_x = 0;
+      position_y = 402;
+      time_range = 10800;
+      last_time = 1234355703;
+      time_step = 300;
+      temp_max = 10;
+      temp_min = 0;
+      temp_step = 2;
+      Plots = ( 
+        {
+          name = "";
+          color = "#00000000fde8";
+        }, 
+        {
+          name = "aaaaaaaaaa";
+          color = "#ebd914261426";
+        }, 
+        {
+          name = "bb";
+          color = "#1709ebd91426";
+        }, 
+        {
+          name = "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj";
+          color = "#ebd91426cfff";
+        } );
+    }, 
+    {
+      width = 700;
+      height = 200;
+      position_x = 0;
+      position_y = 0;
+      time_range = 10800;
+      last_time = 1234355727;
+      time_step = 300;
+      temp_max = 10;
+      temp_min = 0;
+      temp_step = 2;
+      Plots = ( 
+        {
+          name = "";
+          color = "#00000000fde8";
+        }, 
+        {
+          name = "aaaaaaaaaa";
+          color = "#ebd914261426";
+        }, 
+        {
+          name = "bb";
+          color = "#1709ebd91426";
+        }, 
+        {
+          name = "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj";
+          color = "#ebd91426cfff";
+        } );
+    } );
+};
+aaa = 1234;
